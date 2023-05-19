@@ -28,10 +28,8 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        title: 'Flutter MVVM architecture',
+        theme: ThemeData(primarySwatch: Colors.blue, cardColor: Colors.red),
         initialRoute: RoutesName.splash,
         onGenerateRoute: Routes.generateRoute,
       ),
